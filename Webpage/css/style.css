@@ -1,0 +1,31 @@
+.text1{
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	background-color: #004239;
+	position: relative;
+	animation: text 3s 1;
+	transition-duration: 350ms;
+}
+
+.text1:hover{
+	background: #00bfa5;
+}
+
+.text2{
+	font-size: 30px;
+	color: white;
+}
+
+@keyframes text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+}
